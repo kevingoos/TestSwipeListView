@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestSwipeListView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- DRAWERLAYOUT -->
+    <string name="drawer_open">Open menu</string>
+    <string name="drawer_close">Sluit menu</string>
+    <string name="content_push_back">Push here</string>
+    <string name="content_name">Name</string>
+    <string name="content_content">content</string>
+
+</resources>

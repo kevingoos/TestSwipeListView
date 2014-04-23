@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="library-0.9.4-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/exploded-aar/com.eyeem.actionbar_pull_to_refresh/library/0.9.4-SNAPSHOT/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/exploded-aar/com.eyeem.actionbar_pull_to_refresh/library/0.9.4-SNAPSHOT/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
