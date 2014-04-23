@@ -1,5 +1,5 @@
-TestSwipeListView
-=================
+TestSwipeListView PROBLEM SEE: http://stackoverflow.com/questions/23251661/swipelistview-unresponsive
+=====================================================================================================
 
 Testing with: ActionbarSherlock, Pull-To-Refresh, SwipeListView and DrawerLayout
 
