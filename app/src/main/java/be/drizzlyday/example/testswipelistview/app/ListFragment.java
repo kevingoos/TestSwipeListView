@@ -7,7 +7,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
 
 import com.example.testswipelistview.app.R;
 import com.fortysevendeg.swipelistview.SwipeListView;
@@ -22,7 +21,6 @@ import be.drizzlyday.example.testswipelistview.app.models.ContentModel;
 import uk.co.senab.actionbarpulltorefresh.extras.actionbarsherlock.PullToRefreshLayout;
 import uk.co.senab.actionbarpulltorefresh.library.ActionBarPullToRefresh;
 import uk.co.senab.actionbarpulltorefresh.library.listeners.OnRefreshListener;
-import uk.co.senab.actionbarpulltorefresh.library.viewdelegates.AbsListViewDelegate;
 
 /**
  * Created by Kevin on 23/04/2014.
@@ -58,9 +56,7 @@ public class ListFragment extends Fragment implements OnRefreshListener {
         listView.setSwipeListViewListener(new SwipeListViewHandler());
 
         ActionBarPullToRefresh.from(getActivity())
-                .allChildrenArePullable()
                 .listener(this)
-                .useViewDelegate(ListView.class, new AbsListViewDelegate())
                 .setup(pullToRefreshLayout);
     }
 
